@@ -18,9 +18,9 @@ img.navicon{
   height: 50px;
   border-radius: 50%;
   border: 1px solid black;
-  position: absolute;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  vertical-align: middle;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 
 img{
@@ -43,18 +43,18 @@ img.dog{
 
 ul{
   display: inline-block;
-  position: absolute;
-  padding-left: 125px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 li{
-  display: inline;
+  display: inline-block;
 }
 
 li::after{
   content: " |";
+}
+
+nav a:hover {
+  color: black;
 }
 
 .rectangle{

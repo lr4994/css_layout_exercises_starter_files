@@ -10,3 +10,21 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+img{
+  max-width: 300px;
+}
+
+.img1{
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.img2{
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
