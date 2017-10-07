@@ -1,0 +1,42 @@
+.container{
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 0;
+}
+
+.l1{
+  height: 200px;
+  width: 50%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.first{
+  background-color: green;
+}
+
+.second{
+  background-color: blue;
+}
+
+.l2{
+  height: 300px;
+  width: 33.33%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.one{
+  background-color: gray;
+}
+
+.two{
+  background-color: black;
+}
+
+.three{
+  background-color: orange;
+}
